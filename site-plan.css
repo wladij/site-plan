@@ -277,6 +277,7 @@ p {
 #body {
     display: grid;
     grid-template-columns: 400px 400px;
+    justify-content: center;
 }
 
 .colors {
