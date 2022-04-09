@@ -231,6 +231,35 @@ nav ul {
     text-align: center;
     font-size: 22px;
 }
+#contact-us-center {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact1 {
+    background: #91F972;
+    justify-self: start;
+    width: 350px;
+    height: 350px;
+    font-size: 13px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+#contact1 img {
+    height: 100%;
+}
+
+#contact2 {
+    background: #72def9;
+    justify-self: start;
+    width: 350px;
+    height: 350px;
+    font-size: 13px;
+    box-shadow: 7px 13px 37px #000;
+}
 
 .footer {
     width: 100%;
